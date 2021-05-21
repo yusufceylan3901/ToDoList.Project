@@ -5,6 +5,7 @@ using DAL.User;
 using DAL;
 using System;
 using DAL.Note;
+using ToDoList.Bll.User;
 
 namespace Eltemtek.ToDoList.Web.Controllers
 {
@@ -27,7 +28,7 @@ namespace Eltemtek.ToDoList.Web.Controllers
         }
 
         public IActionResult Register()
-        {
+        {  
             return View();
         }
 

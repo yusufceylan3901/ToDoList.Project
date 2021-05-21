@@ -7,9 +7,9 @@ using System.Text;
 
 namespace ToDoList.Bll.User
 {
-    public class bUser:dUser
+    public class bUser
     {
-        public rUser Add(pUser args)
+        public rUser AddUser(pUser args)
         {
             using (DBContext db = new DBContext())
             {

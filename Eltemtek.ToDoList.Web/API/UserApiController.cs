@@ -17,7 +17,7 @@ namespace Eltemtek.ToDoList.Web.API
         public rUser Get(pId args)
         {
             dUser user = new dUser();
-
+            
             return user.Get(args);
         }
 
@@ -28,7 +28,7 @@ namespace Eltemtek.ToDoList.Web.API
 
             bUser user = new bUser();
 
-            return user.Add(args);
+            return user.AddUser(args);
 
         }
 
