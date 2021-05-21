@@ -78,6 +78,8 @@ namespace DAL
 
         }
 
+
+        //E-Mail kontrol metodu veritabanında daha önce oluşturulmuş mu diye kontrol ediyor..//
         private bool IsValidEMail(string email)
         {
             try
@@ -115,6 +117,7 @@ namespace DAL
 
         //}
 
+        //Kullanıcı Getirme Metodu Id den bulup tüm bilgilerini getiriyor..//
         public rUser Get(pUser args)
         {
             try
@@ -134,9 +137,8 @@ namespace DAL
                 return new rUser { Error = true, Message = ex.Message };
             }
         }
-           
-        
-
+                 
+        //Kullanıcı Listeleme Metodu Veritabanındaki bütün kullanıcıları listeliyor..//
         public rListUser ListUser(pUser args)
         {
             try
@@ -155,7 +157,7 @@ namespace DAL
             }
 
         }
-        
+        //Giriş bilgileri doğrulama metodu..//
         public string LoginControl(pUser args)
         {
             try
