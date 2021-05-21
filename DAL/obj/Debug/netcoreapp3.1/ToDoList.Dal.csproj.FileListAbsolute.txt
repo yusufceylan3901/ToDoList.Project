@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Dal.deps.json
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Dal.dll
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Dal.pdb
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Entity.dll
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Entity.pdb
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\bin\Debug\netcoreapp3.1\ToDoList.Db.pdb
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.AssemblyInfo.cs
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.csproj.CopyComplete
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.dll
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\DAL\obj\Debug\netcoreapp3.1\ToDoList.Dal.pdb

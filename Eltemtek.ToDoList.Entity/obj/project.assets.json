@@ -459,7 +459,7 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "Eltemtek.ToDoList.Db/1.0.0": {
+      "ToDoList.Db/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -468,10 +468,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/Eltemtek.ToDoList.Db.dll": {}
+          "bin/placeholder/ToDoList.Db.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Eltemtek.ToDoList.Db.dll": {}
+          "bin/placeholder/ToDoList.Db.dll": {}
         }
       }
     }
@@ -1423,15 +1423,15 @@
         "version.txt"
       ]
     },
-    "Eltemtek.ToDoList.Db/1.0.0": {
+    "ToDoList.Db/1.0.0": {
       "type": "project",
-      "path": "../Eltemtek.ToDoList.Db/Eltemtek.ToDoList.Db.csproj",
-      "msbuildProject": "../Eltemtek.ToDoList.Db/Eltemtek.ToDoList.Db.csproj"
+      "path": "../Eltemtek.ToDoList.Db/ToDoList.Db.csproj",
+      "msbuildProject": "../Eltemtek.ToDoList.Db/ToDoList.Db.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Eltemtek.ToDoList.Db >= 1.0.0"
+      "ToDoList.Db >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1442,9 +1442,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj",
-      "projectName": "Eltemtek.ToDoList.Entity",
-      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\ToDoList.Entity.csproj",
+      "projectName": "ToDoList.Entity",
+      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\ToDoList.Entity.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\obj\\",
       "projectStyle": "PackageReference",
@@ -1468,8 +1468,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj"
+            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\ToDoList.Db.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\ToDoList.Db.csproj"
             }
           }
         }

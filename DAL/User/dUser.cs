@@ -11,12 +11,9 @@ namespace DAL
         public rUser InsertUser(pUser args)
         {
             try
-            {
-                using (DBContext db = new DBContext())
-                {
+            {               
                     if (!IsValidEMail(args.Email))
                         return new rUser { Error = true, Message = "Kullanıcı zaten kayıtlı" };
-
                     TblUser user = new TblUser()
                     {
 
@@ -25,11 +22,8 @@ namespace DAL
                         Password = args.Password,
                         Email = args.Email
                     };
-
-                    db.TblUsers.Add(user);
-                    db.SaveChanges();
                     return new rUser { Value = user };
-                }
+                
             }
             catch (Exception ex)
             {

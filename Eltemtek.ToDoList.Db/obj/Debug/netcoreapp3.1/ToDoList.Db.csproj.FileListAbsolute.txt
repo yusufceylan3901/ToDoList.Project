@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\bin\Debug\netcoreapp3.1\ToDoList.Db.deps.json
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\bin\Debug\netcoreapp3.1\ToDoList.Db.runtimeconfig.json
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\bin\Debug\netcoreapp3.1\ToDoList.Db.runtimeconfig.dev.json
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\bin\Debug\netcoreapp3.1\ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\bin\Debug\netcoreapp3.1\ToDoList.Db.pdb
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.AssemblyInfo.cs
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.pdb
+C:\Users\hp\Desktop\GitHub\ToDoList.Project\Eltemtek.ToDoList.Db\obj\Debug\netcoreapp3.1\ToDoList.Db.genruntimeconfig.cache

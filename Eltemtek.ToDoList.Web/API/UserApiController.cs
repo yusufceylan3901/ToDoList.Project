@@ -3,6 +3,7 @@ using DAL.User;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using Microsoft.AspNetCore.Http;
+using ToDoList.Bll.User;
 
 namespace Eltemtek.ToDoList.Web.API
 {
@@ -25,9 +26,9 @@ namespace Eltemtek.ToDoList.Web.API
         public rUser Insert(pUser args)
         {
 
-            dUser user = new dUser();
+            bUser user = new bUser();
 
-            return user.InsertUser(args);
+            return user.Add(args);
 
         }
 

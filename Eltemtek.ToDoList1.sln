@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eltemtek.ToDoList.Db", "Eltemtek.ToDoList.Db\Eltemtek.ToDoList.Db.csproj", "{6A57E2B5-BDB5-40A8-AB93-70DEDAE63322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.Db", "Eltemtek.ToDoList.Db\ToDoList.Db.csproj", "{6A57E2B5-BDB5-40A8-AB93-70DEDAE63322}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{0B85BB67-AE95-472C-BD41-959FD8488F7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.Dal", "DAL\ToDoList.Dal.csproj", "{0B85BB67-AE95-472C-BD41-959FD8488F7A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eltemtek.ToDoList.Web", "Eltemtek.ToDoList.Web\Eltemtek.ToDoList.Web.csproj", "{6BC4A898-E9CA-49AA-A692-9B59BDE968FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.Web", "Eltemtek.ToDoList.Web\ToDoList.Web.csproj", "{6BC4A898-E9CA-49AA-A692-9B59BDE968FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eltemtek.ToDoList.Project", "Eltemtek.ToDoList.Project", "{5B022E21-B42F-49C8-B74F-6B0D7400E449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eltemtek.ToDoList.Entity", "Eltemtek.ToDoList.Entity\Eltemtek.ToDoList.Entity.csproj", "{57B05F4A-C864-43B5-B656-E1F814A29A67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Entity", "Eltemtek.ToDoList.Entity\ToDoList.Entity.csproj", "{57B05F4A-C864-43B5-B656-E1F814A29A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Bll", "ToDoList.Bll\ToDoList.Bll.csproj", "{030656D4-3D03-47D5-8AB4-D9960DEED1D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{57B05F4A-C864-43B5-B656-E1F814A29A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B05F4A-C864-43B5-B656-E1F814A29A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B05F4A-C864-43B5-B656-E1F814A29A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030656D4-3D03-47D5-8AB4-D9960DEED1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030656D4-3D03-47D5-8AB4-D9960DEED1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030656D4-3D03-47D5-8AB4-D9960DEED1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030656D4-3D03-47D5-8AB4-D9960DEED1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{0B85BB67-AE95-472C-BD41-959FD8488F7A} = {5B022E21-B42F-49C8-B74F-6B0D7400E449}
 		{6BC4A898-E9CA-49AA-A692-9B59BDE968FD} = {5B022E21-B42F-49C8-B74F-6B0D7400E449}
 		{57B05F4A-C864-43B5-B656-E1F814A29A67} = {5B022E21-B42F-49C8-B74F-6B0D7400E449}
+		{030656D4-3D03-47D5-8AB4-D9960DEED1D8} = {5B022E21-B42F-49C8-B74F-6B0D7400E449}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E12889A-32FB-41E6-A774-E451F426BDA4}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hpR6JmJie9DlwD2LQFktkX1gjnaNyAV5ZJky+lrqEbLibQU9so7cixWx9f3VCbyOz1Ma4bXDxPII2yzLVRzIDw==",
+  "dgSpecHash": "2LR8DZnlA43/xUaR8v62WBSvUwwikikWc1KkG5k/2q2UXNNz1QCOhQWJ57JEyvetbUCFyEJSgqowSHiRZCVjww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\ToDoList.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.2\\microsoft.entityframeworkcore.abstractions.5.0.2.nupkg.sha512",

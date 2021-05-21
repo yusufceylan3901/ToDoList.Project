@@ -732,7 +732,7 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "Eltemtek.ToDoList.Db/1.0.0": {
+      "ToDoList.Db/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -741,23 +741,23 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/Eltemtek.ToDoList.Db.dll": {}
+          "bin/placeholder/ToDoList.Db.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Eltemtek.ToDoList.Db.dll": {}
+          "bin/placeholder/ToDoList.Db.dll": {}
         }
       },
-      "Eltemtek.ToDoList.Entity/1.0.0": {
+      "ToDoList.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Eltemtek.ToDoList.Db": "1.0.0"
+          "ToDoList.Db": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Eltemtek.ToDoList.Entity.dll": {}
+          "bin/placeholder/ToDoList.Entity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Eltemtek.ToDoList.Entity.dll": {}
+          "bin/placeholder/ToDoList.Entity.dll": {}
         }
       }
     }
@@ -2152,24 +2152,24 @@
         "version.txt"
       ]
     },
-    "Eltemtek.ToDoList.Db/1.0.0": {
+    "ToDoList.Db/1.0.0": {
       "type": "project",
-      "path": "../Eltemtek.ToDoList.Db/Eltemtek.ToDoList.Db.csproj",
-      "msbuildProject": "../Eltemtek.ToDoList.Db/Eltemtek.ToDoList.Db.csproj"
+      "path": "../Eltemtek.ToDoList.Db/ToDoList.Db.csproj",
+      "msbuildProject": "../Eltemtek.ToDoList.Db/ToDoList.Db.csproj"
     },
-    "Eltemtek.ToDoList.Entity/1.0.0": {
+    "ToDoList.Entity/1.0.0": {
       "type": "project",
-      "path": "../Eltemtek.ToDoList.Entity/Eltemtek.ToDoList.Entity.csproj",
-      "msbuildProject": "../Eltemtek.ToDoList.Entity/Eltemtek.ToDoList.Entity.csproj"
+      "path": "../Eltemtek.ToDoList.Entity/ToDoList.Entity.csproj",
+      "msbuildProject": "../Eltemtek.ToDoList.Entity/ToDoList.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Eltemtek.ToDoList.Entity >= 1.0.0",
       "Microsoft.AspNetCore.Session >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 5.0.4",
       "Newtonsoft.Json >= 12.0.3",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.2"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.2",
+      "ToDoList.Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2180,9 +2180,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\ToDoList.Dal.csproj",
+      "projectName": "ToDoList.Dal",
+      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\ToDoList.Dal.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\obj\\",
       "projectStyle": "PackageReference",
@@ -2206,8 +2206,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj"
+            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\ToDoList.Entity.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\ToDoList.Entity.csproj"
             }
           }
         }

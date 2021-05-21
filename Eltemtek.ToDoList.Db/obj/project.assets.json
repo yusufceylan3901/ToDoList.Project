@@ -1598,9 +1598,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj",
-      "projectName": "Eltemtek.ToDoList.Db",
-      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\ToDoList.Db.csproj",
+      "projectName": "ToDoList.Db",
+      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\ToDoList.Db.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\obj\\",
       "projectStyle": "PackageReference",
