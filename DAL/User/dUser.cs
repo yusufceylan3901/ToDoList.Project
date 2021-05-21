@@ -9,6 +9,7 @@ namespace DAL
 {
     public class dUser
     {
+        //Kullancı Ekleme Metodu Eklemeden Önce E-Mailin Geçerli Olup Olmadığını Kontrol Ettik..//
         public rUser InsertUser(pUser args)
         {
             try
@@ -38,6 +39,7 @@ namespace DAL
             }
         }
 
+        //Kullancı Silme Metodu Id den yakalayıp veritabanından sildik..//
         public rUser DeleteUser(pId args)
         {
             try
@@ -55,7 +57,7 @@ namespace DAL
                 return new rUser { Error = true, Message = ex.Message };
             }
         }
-
+        //Kullancı Güncelleme Metodu Id den kullanıcıyı bulup güncellenecek kısımı yaptık..//
         public rUser UpdatePassword(pUser args)
         {
             try

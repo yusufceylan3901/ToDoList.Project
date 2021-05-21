@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-#nullable disable
 
 namespace Eltemtek.ToDoList.Db.DataAccess
 {
+    // Veritabanımızdaki Note Tablomuzun Propertyleri Getirdik..//
     [Table("tbl_note")]
     public partial class TblNote
     {

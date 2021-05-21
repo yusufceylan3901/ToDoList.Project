@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Eltemtek.ToDoList.Db.DataAccess
 {
+
+    // Veritabanımızdaki User Tablomuzun Propertyleri Getirdik..//
+
     [Table("tbl_user")]
     public partial class TblUser
     {
