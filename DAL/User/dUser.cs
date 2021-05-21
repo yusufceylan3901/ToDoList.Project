@@ -1,9 +1,7 @@
 ﻿using DAL.User;
 using Eltemtek.ToDoList.Db.DataAccess;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net.Mail;
 
 namespace DAL
 {
@@ -118,7 +116,7 @@ namespace DAL
         //}
 
         //Kullanıcı Getirme Metodu Id den bulup tüm bilgilerini getiriyor..//
-        public rUser Get(pUser args)
+        public rUser Get(pId args)
         {
             try
             {
@@ -139,7 +137,7 @@ namespace DAL
         }
                  
         //Kullanıcı Listeleme Metodu Veritabanındaki bütün kullanıcıları listeliyor..//
-        public rListUser ListUser(pUser args)
+        public rListUser ListUser(pId args)
         {
             try
             {
