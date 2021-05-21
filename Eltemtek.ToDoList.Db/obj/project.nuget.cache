@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lKfo+0dRJCVqag8AuhY3NPZIBzxbR2vCZ2wNgTOrh6f30vRkVqeT1UKv9tgds0l5k+7yoH4ZSKM2YSR4u87dWw==",
+  "dgSpecHash": "kyfA2NLcJeV9KbY1YJ1t/WlyzllnOjakWh3Im8ebN1PSnjK73HHO6UcS1lUQrhmEkQ3VE/vGVNt9WdNZ5ndg0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\Eltemtek.ToDoList1\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

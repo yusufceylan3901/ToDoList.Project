@@ -3,7 +3,7 @@ using Eltemtek.ToDoList.Db.DataAccess;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using System.Net.Mail;
 
 namespace DAL
 {
@@ -153,13 +153,14 @@ namespace DAL
             }
 
         }
-
+        
         public string LoginControl(pUser args)
         {
             try
             {
                 using (DBContext db = new DBContext())
                 {
+
                     var user = db.TblUsers.Where(x => x.Email == args.Email && x.Password == args.Password).SingleOrDefault();
                     
 

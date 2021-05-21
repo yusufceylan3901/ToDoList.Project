@@ -2759,11 +2759,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Eltemtek.ToDoList1\\Eltemtek.ToDoList.Web\\Eltemtek.ToDoList.Web.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Web\\Eltemtek.ToDoList.Web.csproj",
       "projectName": "Eltemtek.ToDoList.Web",
-      "projectPath": "C:\\Users\\hp\\Desktop\\Eltemtek.ToDoList1\\Eltemtek.ToDoList.Web\\Eltemtek.ToDoList.Web.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Web\\Eltemtek.ToDoList.Web.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\Eltemtek.ToDoList1\\Eltemtek.ToDoList.Web\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2785,8 +2785,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\Eltemtek.ToDoList1\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\Eltemtek.ToDoList1\\DAL\\DAL.csproj"
+            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\DAL\\DAL.csproj"
             }
           }
         }

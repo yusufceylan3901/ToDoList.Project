@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Session;
 using DAL.User;
-using Newtonsoft.Json;
-using Microsoft.AspNetCore.Authorization;
 using DAL;
 using System;
-using Eltemtek.ToDoList.Db.DataAccess;
 using DAL.Note;
 
 namespace Eltemtek.ToDoList.Web.Controllers

@@ -1,12 +1,8 @@
 ﻿using DAL;
 using DAL.User;
-using Eltemtek.ToDoList.Db.DataAccess;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
-using Newtonsoft.Json;
-using RestSharp;
 
 namespace Eltemtek.ToDoList.Web.API
 {
