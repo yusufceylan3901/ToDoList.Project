@@ -746,6 +746,19 @@
         "runtime": {
           "bin/placeholder/Eltemtek.ToDoList.Db.dll": {}
         }
+      },
+      "Eltemtek.ToDoList.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Eltemtek.ToDoList.Db": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eltemtek.ToDoList.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eltemtek.ToDoList.Entity.dll": {}
+        }
       }
     }
   },
@@ -2143,11 +2156,16 @@
       "type": "project",
       "path": "../Eltemtek.ToDoList.Db/Eltemtek.ToDoList.Db.csproj",
       "msbuildProject": "../Eltemtek.ToDoList.Db/Eltemtek.ToDoList.Db.csproj"
+    },
+    "Eltemtek.ToDoList.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Eltemtek.ToDoList.Entity/Eltemtek.ToDoList.Entity.csproj",
+      "msbuildProject": "../Eltemtek.ToDoList.Entity/Eltemtek.ToDoList.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Eltemtek.ToDoList.Db >= 1.0.0",
+      "Eltemtek.ToDoList.Entity >= 1.0.0",
       "Microsoft.AspNetCore.Session >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 5.0.4",
       "Newtonsoft.Json >= 12.0.3",
@@ -2188,8 +2206,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Db\\Eltemtek.ToDoList.Db.csproj"
+            "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\ToDoList.Project\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.csproj"
             }
           }
         }

@@ -90,7 +90,7 @@ namespace DAL
                     return user == null ? true : false;
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }

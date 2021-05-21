@@ -22,7 +22,7 @@ namespace Eltemtek.ToDoList.Web.Controllers
             var userId = HttpContext.Session.GetString("session");
             dUser userD = new dUser();
 
-            var user = userD.Get(new pUser { Id = Convert.ToInt32(userId) });
+            var user = userD.Get(new pId { Id = Convert.ToInt32(userId) });
             return View(user);
         }
 
@@ -72,7 +72,7 @@ namespace Eltemtek.ToDoList.Web.Controllers
             if (userId != null)
             {
                 dUser userD = new dUser();
-                var user = userD.Get(new pUser { Id = Convert.ToInt32(userId) });
+                var user = userD.Get(new pId { Id = Convert.ToInt32(userId) });
                 ViewBag.UserId = userId;
                 return View(user);
             }
@@ -84,7 +84,7 @@ namespace Eltemtek.ToDoList.Web.Controllers
         {
             var userId = HttpContext.Session.GetString("session");
             dUser userD = new dUser();
-            var user = userD.Get(new pUser { Id = Convert.ToInt32(userId) });
+            var user = userD.Get(new pId { Id = Convert.ToInt32(userId) });
             ViewBag.Id = userId;
             user = userD.DeleteUser(new pId { Id = Convert.ToInt32(userId) });
 

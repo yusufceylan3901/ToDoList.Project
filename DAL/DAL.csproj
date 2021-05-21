@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eltemtek.ToDoList.Db\Eltemtek.ToDoList.Db.csproj" />
+    <ProjectReference Include="..\Eltemtek.ToDoList.Entity\Eltemtek.ToDoList.Entity.csproj" />
   </ItemGroup>
 
 </Project>

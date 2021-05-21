@@ -13,7 +13,7 @@ namespace Eltemtek.ToDoList.Web.API
 
         [HttpPost]
         [Route("Get")]
-        public rUser Get(pUser args)
+        public rUser Get(pId args)
         {
             dUser user = new dUser();
 

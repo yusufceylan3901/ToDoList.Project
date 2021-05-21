@@ -6,11 +6,12 @@ namespace DAL.Note
 {
     public class dNote
     {
+        //Not Ekleme Metodu..//
         public rNote InsertNote(pNote args)
         {
             try
             {
-                using (DBContext db = new DBContext())
+                using (DBContext db = new DBContext()) // Veritabanı bağlantı nesnesi oluşturuluyor..//
                 {
                     TblNote note = new TblNote()
                     {
@@ -18,8 +19,8 @@ namespace DAL.Note
                         Note = args.Note,
                         Userid = args.UserId
                     };
-                    db.TblNotes.Add(note);
-                    db.SaveChanges();
+                    db.TblNotes.Add(note);   //Veri tabanındaki TblNotes tablosuna ekleme yapıyor..//
+                    db.SaveChanges();  //Veritabanındaki Değişiklikleri Kayıt Ediyor..//
                     return new rNote { Value = note };
                 }
             }
@@ -29,6 +30,8 @@ namespace DAL.Note
             }
         }
 
+        //Not Silme Metodu Notu id den yakalayıp siliyor..//
+        
         public rNote DeleteNote(pNote args)
         {
             using (DBContext db = new DBContext())
@@ -36,9 +39,9 @@ namespace DAL.Note
                 try
                 {
                     
-                    var note = db.TblNotes.Where(x => x.Noteid == args.NoteId).SingleOrDefault();                   
-                    db.TblNotes.Remove(note);
-                    db.SaveChanges();
+                    var note = db.TblNotes.Where(x => x.Noteid == args.NoteId).SingleOrDefault();  //Veritabanındaki TblNotes tablosundaki notun id sini buluyor..//                
+                    db.TblNotes.Remove(note);  //Veritabanındaki TblNotes tablosundan bulunan veriyi kaldırıyor..//
+                    db.SaveChanges();  //Veritabanındaki Değişiklikleri Kayıt Ediyor..//
                     return new rNote { Value=note };
                 }
                 catch (Exception ex)
@@ -47,7 +50,7 @@ namespace DAL.Note
                 }
             }
         }
-
+        //Not Güncelleme Metodu Notu id den yakalayıp güncelliyor..//
         public rNote UpdateNote(pNote args)
         {
             try
@@ -67,7 +70,7 @@ namespace DAL.Note
                 return new rNote { Error = true, Message = ex.Message };
             }
         }
-
+        //Not Listeleme Metodu Burada kullanıcının id sini yakalayıp kullanıcının oluşturduğu notları listeliyor..//
         public rListNote ListNote(pNote args)
         {
             try
@@ -83,7 +86,7 @@ namespace DAL.Note
                 return new rListNote { Error = true, Message = ex.Message }; //****//
             }
         }
-
+        //Not Getirme Metodu..//
         public rNote Get(pNote args)
         {
             try
