@@ -87,6 +87,7 @@ namespace DAL.Note
             }
         }
         //Not Getirme Metodu..//
+        // 22.05.2021//
         public rNote Get(pNote args)
         {
             try
